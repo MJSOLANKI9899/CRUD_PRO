@@ -1,0 +1,10 @@
+.mytext {
+    color: #fff;
+    font-size: 2.5em;
+    letter-spacing: 5px;
+    text-shadow: 
+      0 0 7px cyan,
+      0 0 7px cyan,
+      0 0 80px cyan,
+      0 0 80px cyan;
+  }

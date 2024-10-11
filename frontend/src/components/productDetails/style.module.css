@@ -1,0 +1,120 @@
+.img{
+    height:4600px;
+    width: 400px;
+    border-radius: 15px;
+    max-height: 470px;
+    object-fit: cover;
+    /* max-width: 100%; */
+    /* height: auto; */
+}:root {
+    --primary-color: #34C759; /* primary color */
+    --primary-color-dark: #2E865F; /* darker shade of primary color */
+    --primary-color-light: #8BC34A; /* lighter shade of primary color */
+  }
+  
+  .container-fluid {
+    padding: 20px;
+  }
+  
+  .bg-success {
+    background-color: var(--primary-color-light);
+  }
+  
+  .bg-danger {
+    background-color: var(--primary-color-dark);
+  }
+  
+  .bg-info {
+    background-color: #F7F7F7; /* light gray background */
+  }
+  
+  .bg-success-subtle {
+    background-color: var(--primary-color-light);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    max-width: 100%; /* ensure image doesn't exceed column width */
+  }
+  
+  .card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card-text {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .share-btn {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .share-btn:hover {
+    background-color: var(--primary-color-dark);
+  }
+  
+  .wishlist-btn {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .wishlist-btn:hover {
+    background-color: var(--primary-color-dark);
+  }
+
+  .text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .card {
+      flex-direction: column;
+    }
+    .card-body {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: 100%;
+    }
+    .card-body {
+      padding: 5px;
+    }
+  }
+
